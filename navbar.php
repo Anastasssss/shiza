@@ -13,7 +13,7 @@
             <a class="nav-link" href="./registration.php">Регистрация</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./todo.php">Список дел</a>
+            <a class="nav-link" href="./todo.php">Чо делаем</a>
           </li>
         </ul>
       </div>
