@@ -80,7 +80,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 // Redirect to login page
                 header("location: index.php");
             } else {
-                echo "Что-то пошло не так. Попробуйте ещё раз";
+                echo "Не арбайтен. Попробуй ещё раз";
             }
 
             // Close statement
