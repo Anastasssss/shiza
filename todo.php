@@ -43,7 +43,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 
     <div class="row">
         <div class="d-flex justify-content-center flex-nowrap">
-            <h1 class="my-5">Привет, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>. Поработай немного</h1>
+            <h1 class="my-5">Доров, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>. Поработай немного</h1>
         </div>
     </div>
     <div class="row d-flex justify-content-center container">
@@ -133,7 +133,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                 
             </div>
             <p>
-                <a href="logout.php" class="btn btn-danger ml-3">Ты поработал, можешь отдохнуть</a>
+                <a href="logout.php" class="btn btn-danger ml-3">Сделал дело - выпей пива</a>
             </p>
             
         </div>
